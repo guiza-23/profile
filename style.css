@@ -1,0 +1,159 @@
+@import url("https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600;700&family=Roboto:wght@300;400;500;600;700;800;900&display=swap");
+
+*{
+  margin: 0rem;
+  padding: 0rem;
+}
+
+html{
+  font-size: 62.5%;
+}
+
+body {
+  background-color: #e9e7fe;
+  color: rgb(57, 62, 70);
+  font-family: 'Roboto', sans-serif;
+  font-size: 2rem;
+  font-weight: light;
+}
+
+.margin-bottom{
+  margin-bottom: 2.5rem;
+}
+
+h1, h2, a {
+  font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+  letter-spacing: 0.2rem;
+  color: rgb(31, 33, 38);
+  font-size: 2.8rem;
+  font-weight: 900;
+}
+
+
+h2 {
+  font-size: 2.2rem;
+  font-weight: 500;
+}
+
+p{
+  font-size: 1.8rem;
+}
+
+div .text-justify-about-me{
+  text-align: justify;
+}
+
+a {
+  text-decoration: none;
+  color: #4338c1;
+  font-weight: 600;
+  font-size: 1.8rem;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: rgb(51, 55, 64);
+}
+
+#introduction p {
+  color: rgb(149, 155, 166);
+}
+
+.container {
+  width: 71rem;
+  margin: 4rem auto;
+}
+
+@media (max-width: 96rem) {
+/* For a screen < 960px, this CSS will be read */
+.container {
+  width: 70rem;
+}
+}
+@media (max-width: 72rem) {
+/* For a screen < 720px, this CSS will be read */
+.container {
+  width: 50rem;
+}
+}
+@media (max-width: 54rem) {
+/* For a screen < 540px, this CSS will be read */
+.container {
+  width: 30rem;
+}
+}
+
+.img-circle {
+  width: 12rem;
+  border-radius: 50%;
+}
+
+.card-white {
+  background-color: #f6f4f4;
+  margin: 2rem auto;
+  padding: 4rem;
+  border-radius: 0.5rem;
+  text-align: center;
+  box-shadow: 1rem 1rem 2rem rgba(0, 0, 0, 0.1);
+}
+
+i {
+font-size: 2.5rem;
+color: #7a38c1;
+transition: 0.3s ease-in-out;
+}
+
+.fa-gem {
+transform: rotate(-45deg);
+}
+
+.card-white h2 {
+  color: #797fc2;
+  font-weight: 700;
+  text-align: center;
+}
+
+.btn-discover {
+  background-color: #5d3abd87;
+  color: white;
+  border-radius: 0.4rem;
+  padding: 1rem 2rem;
+  transition: 0.4s ease-in;
+}
+
+.btn-discover:hover {
+  background-color: #f6f4f4;
+  background-color: ;
+  color: #623abd87;
+  font-size: 2rem;
+  transition: 0.4s ease-in-out;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0rem;
+}
+
+.list-inline li {
+  display: inline;
+  padding: 1rem;
+  margin-right: 2rem;
+}
+
+.list-inline i {
+  font-size: 4.5rem;
+  color: rgba(197, 199, 255, 0.513);
+  transition: 0.3s ease-out;
+}
+
+.list-inline i:hover {
+  color: #593abd87;
+  transition: 0.3s ease-in-out;
+}
+
+#introduction p {
+  margin-bottom: 4rem;
+}
